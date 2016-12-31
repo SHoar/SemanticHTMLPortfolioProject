@@ -19,7 +19,9 @@ body {
 h1, h2, h3, h4 {
   margin: 10px 0 15px;
 }
-
+main, section, footer {
+  width: 100% auto;
+}
 .nav, nav {
   display: inline;
   list-style: none;
@@ -34,9 +36,8 @@ h1, h2, h3, h4 {
 p, ul {
   margin: 10px 0;
 }
-
 .skills ul li {
-  margin-left: 30px;;
+  margin-left: 30px;
 }
 
 a {
@@ -129,13 +130,11 @@ a.active {
 /*
  * SKILLS
  */
-
 .skills {
   background: #e91e63;
   color: white;
 }
-
-.footer, footer {
+footer {
   margin-top: 2em;
   background-color: #444;
   color: #eee;
@@ -145,3 +144,4 @@ a.active {
 }
 .footer p, footer p {
   font-size: 14px;
+}
