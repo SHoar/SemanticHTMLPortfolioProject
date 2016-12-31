@@ -19,7 +19,7 @@ body {
 h1, h2, h3, h4 {
   margin: 10px 0 15px;
 }
-main, section, footer {
+.tagline, section, footer {
   width: 100% auto;
 }
 .nav, nav {
@@ -73,7 +73,7 @@ a.active {
  * HEADER
  */
 
-.header, header {
+.header {
   align-items: center;
   background-color: #EFEFEF;
   background-image: url('bg.jpg');
@@ -93,12 +93,12 @@ a.active {
 }
 
 @media only screen and (max-device-width: 420px)  {
-  .header, header {
+  .header{
     background-size: auto 100%;
   }
 }
 
-.header:before, header:before {
+.header:before {
   background: rgba(0, 0, 0, .7);
   bottom: 0;
   content: ' ';
@@ -110,18 +110,18 @@ a.active {
   z-index: 1;
 }
 
-.header *, header * {
+.header * {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
 }
 
-.header h1, header h1 {
+.header h1{
   font-size: 4rem;
   font-weight: 100;
 }
 
-.header h2, header h2 {
+.header h2 {
   font-size: 2.1rem;
   font-weight: 100;
   margin: 5px 0;
