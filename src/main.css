@@ -19,16 +19,16 @@ body {
 h1, h2, h3, h4 {
   margin: 10px 0 15px;
 }
-.tagline, section, footer {
+main, section, footer {
   width: 100% auto;
 }
-.nav, nav {
+nav {
   display: inline;
   list-style: none;
   margin: 1em 0;
   padding: 0;
 }
-.nav li, nav li {
+nav li {
   display: inline;
   margin-right: 1em;
 }
@@ -110,18 +110,18 @@ header:before {
   z-index: 1;
 }
 
-.header * {
+header * {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
 }
 
-.header h1{
+header h1{
   font-size: 4rem;
   font-weight: 100;
 }
 
-.header h2 {
+header h2 {
   font-size: 2.1rem;
   font-weight: 100;
   margin: 5px 0;
